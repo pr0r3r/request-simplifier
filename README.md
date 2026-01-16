@@ -1,10 +1,10 @@
 # Request Simplifier
 
-**Request Simplifier** is a small and simple Burp Suite extension that helps you remove unnecessary headers and cookies from HTTP requests.
+**Request Simplifier** is a simple Burp Suite extension that helps you remove unnecessary headers and cookies from HTTP requests.
 
-When I test web applications, I often simplify up requests to make them easier to read and work with. It also helps when writing bug bounty reports — for example, triager once asked me for more information when he got a 304 Not Modified response because of a header. I looked for an extension that does this automatically, but I couldn’t find any. So I built my own.
+When I test web applications, I often remove unnecessary headers and cookies from requests to make them easier to read and work with. I looked for an extension that does this automatically, but I couldn’t find any. So I built one.
 
-Request Simplifier is very simple and lightweight so it won’t slow down Burp Suite. You can use the default settings to remove common headers, or customize it to remove exactly what you want. The settings window is very user-friendly — it fills in all headers and cookies from the current request, and you just delete the ones you want to keep.
+Request Simplifier is simple and lightweight so it won’t slow down Burp Suite. You can use the default settings to remove common headers, or customize it to remove exactly what you want. The settings window is user-friendly — it fills in all headers and cookies from the current request, and you just delete the ones you want to keep.
 
 ---
 
