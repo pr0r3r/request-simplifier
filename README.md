@@ -21,7 +21,7 @@ Request Simplifier is simple and lightweight so it won’t slow down Burp Suite.
 
 #### Simplify a request
 Right-click on a request in Repeater or HTTP history and choose:  `Extensions > Request Simplifier > Simplify`  
-This opens a copy of an HTTP request in a new Repeater with unnecessary headers and cookies removed based on your saved or default settings.
+This opens a copy of an HTTP request in a new Repeater tab with unnecessary headers and cookies removed based on your saved or default settings.
 
 #### ⚙️ Configure what gets removed
 Right-click on a request and choose: `Extensions > Request Simplifier > Settings`  
